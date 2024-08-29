@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etsdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập sdt"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btngoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gọi" />
+
+    <EditText
+        android:id="@+id/ettn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập nội dung tin nhắn"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gửi" />
+
+</LinearLayout>
